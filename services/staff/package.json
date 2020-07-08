@@ -1,0 +1,41 @@
+{
+  "name": "staff",
+  "version": "0.0.1",
+  "description": "Staff Servie in Daniel's US Stock Screener",
+  "main": "index.ts",
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon"
+  },
+  "author": "Daniel Lin",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/merge": "^6.0.11",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
+    "@types/socket.io": "^2.1.8",
+    "apollo-server-express": "^2.15.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql-tools": "^6.0.11",
+    "jest": "^26.0.1",
+    "kafka-node": "^5.0.0",
+    "react-redux": "^7.2.0",
+    "ts-jest": "^26.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

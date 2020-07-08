@@ -1,0 +1,21 @@
+version: "3"
+services:
+  staff:
+    build:
+      dockerfile: docker-dev.dockerfile
+      context: ../services/staff/
+    container_name: staff
+    volumes:
+      - /home/staff/node_modules
+      - ../services/staff:/home/staff
+    env_file:
+      - ../services/staff/.env
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 4999:4999
+    command: npm start
+    networks:
+      - dashboard-dev
+networks:
+  dashboard-dev:

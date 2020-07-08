@@ -1,0 +1,63 @@
+{
+  "name": "staff-web",
+  "version": "0.0.1",
+  "description": "Staff Web Servie in Daniel's US Stock Screener",
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack",
+    "graphql"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start:stage": "NODE_ENV=development NODE_ENV_API=stage webpack-dev-server --config ./config/webpack.js --color --progress --hot",
+    "start:dev": "NODE_ENV=development NODE_ENV_API=dev webpack-dev-server --config ./config/webpack.js --color --progress --hot"
+  },
+  "author": "Daniel Lin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.1",
+    "dotenv": "^8.2.0",
+    "jest": "^26.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "react-loadable": "^5.5.0",
+    "react-loading-overlay": "^1.0.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "stringify-object-values": "^0.1.0",
+    "styled-components": "^5.1.1",
+    "ts-jest": "^26.1.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.18",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-loadable": "^5.5.3",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
+    "@types/webpack": "^4.41.21",
+    "@types/webpack-env": "^1.15.2",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^7.0.5",
+    "webpack": "^4.43.0",
+    "webpack-assets-manifest": "^3.1.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.8"
+  }
+}

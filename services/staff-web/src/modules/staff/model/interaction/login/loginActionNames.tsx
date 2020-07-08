@@ -1,0 +1,10 @@
+export type ILoginActionName =
+  | "LOGGING_IN"
+  | "LOGGING_IN_SUCCESS"
+  | "LOGGING_IN_FAILURE";
+
+const LOGGING_IN: ILoginActionName = "LOGGING_IN";
+const LOGGING_IN_SUCCESS: ILoginActionName = "LOGGING_IN_SUCCESS";
+const LOGGING_IN_FAILURE: ILoginActionName = "LOGGING_IN_FAILURE";
+
+export { LOGGING_IN, LOGGING_IN_SUCCESS, LOGGING_IN_FAILURE };
